@@ -1,0 +1,9 @@
+
+def is_same_string(input_string, check_string):
+    return input_string == check_string
+    
+ #sample
+input_str = "hello"
+check_str = "hello"
+result = is_same_string(input_str, check_str)
+print("Is the string the same?", result)
